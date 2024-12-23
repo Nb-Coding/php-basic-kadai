@@ -22,10 +22,10 @@
                 $this->price = $price;
             }
 
-            //method priceを返す
+            //method priceの出力を返す
             public function show_price()
             {
-                return $this->price;
+                echo $this->price;
             }
         }
         class Animal
@@ -46,7 +46,7 @@
             //method heightを返す
             public function show_height()
             {
-                return $this->height;
+                echo $this->height;
             }
         }
 
@@ -58,9 +58,8 @@
         print_r($dog);
         echo '<br>';
 
-        echo $chocolate->show_price() . '<br>';
-        echo $dog->show_height() . '<br>';
-
+        echo $chocolate->show_price();
+        echo $dog->show_height();
         ?>
     </p>
 </body>
