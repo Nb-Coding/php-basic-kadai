@@ -59,6 +59,7 @@
         echo '<br>';
 
         echo $chocolate->show_price();
+        echo '<br>';
         echo $dog->show_height();
         ?>
     </p>
